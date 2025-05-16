@@ -16,11 +16,11 @@ export default function Home() {
           Apliko is a product-centered AI research lab focused on building LLM agents in health and sustainability.
         </p>
         {/* change nums here for columns */}
-        <div className="grid md:grid-cols-2 gap-6"> 
-          {/* <div className="border rounded-2xl p-6 shadow hover:shadow-md transition">
-            <h3 className="text-xl font-semibold mb-2">🧠 MedGuide</h3>
+        <div className="grid md:grid-cols-3 gap-6"> 
+          <div className="border rounded-2xl p-6 shadow hover:shadow-md transition">
+            <h3 className="text-xl font-semibold mb-2">🧠 GrowthGuard</h3>
             <p className="text-gray-600 mb-4 text-sm">
-              AI Copilot for Clinical Decision Support.
+              RAG-enabled AI Copilot for Clinical Decision Support, starting with pediatrics.
             </p>
             <a
               className="text-blue-600 font-medium hover:underline cursor-pointer"
@@ -28,10 +28,10 @@ export default function Home() {
             >
               Learn more →
             </a>
-          </div> */}
+          </div>
 
           <div className="border rounded-2xl p-6 shadow hover:shadow-md transition">
-            <h3 className="text-xl font-semibold mb-2">🛍️ LuxeAI</h3>
+            <h3 className="text-xl font-semibold mb-2">🛍️ Luxe</h3>
             <p className="text-gray-600 mb-4 text-sm">
               Multi-agent shopping companion that delivers voice-activated, taste-aware curation of affordable health, fashion, and sustainable products 
             </p>
@@ -41,7 +41,7 @@ export default function Home() {
           </div>
 
           <div className="border rounded-2xl p-6 shadow hover:shadow-md transition">
-            <h3 className="text-xl font-semibold mb-2">🧬 TrinityAI</h3>
+            <h3 className="text-xl font-semibold mb-2">🧬 Trinity</h3>
             <p className="text-gray-600 mb-4 text-sm">
               Scientific superintelligence to automate core research workflows across biology, chemistry, and materials science
             </p>
