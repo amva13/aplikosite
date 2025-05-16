@@ -20,7 +20,7 @@ export default function Home() {
           <div className="border rounded-2xl p-6 shadow hover:shadow-md transition">
             <h3 className="text-xl font-semibold mb-2">🧠 GrowthGuard</h3>
             <p className="text-gray-600 mb-4 text-sm">
-              RAG-enabled AI Copilot for Clinical Decision Support, starting with pediatrics.
+              RAG-enabled AI Copilot for Clinical Decision Support.
             </p>
             <a
               className="text-blue-600 font-medium hover:underline cursor-pointer"
