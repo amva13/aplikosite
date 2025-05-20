@@ -13,7 +13,7 @@ export default function Home() {
           Building intelligent systems for a healthier, more sustainable world.
         </h2>
         <p className="text-lg text-gray-600 mb-10">
-          Apliko is a product-centered AI research lab focused on building LLM agents in health and sustainability.
+          Apliko is a product-centered, engineering-driven, AI research lab focused on building LLM agents in health and sustainability.
         </p>
         {/* change nums here for columns */}
         <div className="grid md:grid-cols-3 gap-6"> 
