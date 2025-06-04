@@ -13,10 +13,10 @@ export default function Home() {
           Building intelligent systems for a healthier, more sustainable world.
         </h2>
         <p className="text-lg text-gray-600 mb-10">
-          Apliko is a product-centered, engineering-driven, AI research lab focused on building LLM agents in health and sustainability.
+          Apliko is a product-centered, engineering-driven, AI research lab focused on building LLM agents in health and sustainability empowering economic mobility
         </p>
         {/* change nums here for columns */}
-        <div className="grid md:grid-cols-3 gap-6"> 
+        <div className="grid md:grid-cols-4 gap-6"> 
           <div className="border rounded-2xl p-6 shadow hover:shadow-md transition">
             <h3 className="text-xl font-semibold mb-2">🧠 GrowthGuard</h3>
             <p className="text-gray-600 mb-4 text-sm">
@@ -24,7 +24,7 @@ export default function Home() {
             </p>
             <a
               className="text-blue-600 font-medium hover:underline cursor-pointer"
-              href="https://scholar.google.com/scholar?oi=bibs&cluster=17622846334429665412&btnI=1&hl=en"
+              href="https://github.com/amva13/growth-llm"
             >
               Learn more →
             </a>
@@ -46,6 +46,15 @@ export default function Home() {
               Scientific superintelligence to automate core research workflows across biology, chemistry, and materials science
             </p>
             <Link href="https://www.calculus.house/alex-velez-arce" className="text-blue-600 font-medium hover:underline">
+              Learn more →
+            </Link>
+          </div>
+          <div className="border rounded-2xl p-6 shadow hover:shadow-md transition">
+            <h3 className="text-xl font-semibold mb-2">🦄 Vantage</h3>
+            <p className="text-gray-600 mb-4 text-sm">
+               Agentic AI for niche deal-sourcing and screening.
+            </p>
+            <Link href="/wip" className="text-blue-600 font-medium hover:underline">
               Learn more →
             </Link>
           </div>
