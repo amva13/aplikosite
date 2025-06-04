@@ -8,7 +8,7 @@ export default function Home() {
         <h1 className="text-2xl font-bold">Apliko</h1>
       </header>
 
-      <section className="px-6 py-20 text-center max-w-3xl mx-auto">
+      <section className="px-6 py-20 text-center max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-semibold mb-6">
           Building intelligent systems for a healthier, more sustainable world.
         </h2>
