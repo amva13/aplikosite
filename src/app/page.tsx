@@ -49,15 +49,6 @@ export default function Home() {
               Learn more →
             </Link>
           </div>
-          <div className="border rounded-2xl p-6 shadow hover:shadow-md transition">
-            <h3 className="text-xl font-semibold mb-2">🦄 Vantage</h3>
-            <p className="text-gray-600 mb-4 text-sm">
-               Agentic AI for niche deal-sourcing and screening.
-            </p>
-            <Link href="/wip" className="text-blue-600 font-medium hover:underline">
-              Learn more →
-            </Link>
-          </div>
         </div>
       </section>
       <section className="px-6 py-20 text-center max-w-3xl mx-auto">
