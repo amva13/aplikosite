@@ -4,11 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function Home() {
   return (
-    <Layout>
       <main className="min-h-screen bg-white text-gray-900 font-sans">
-        <header className="px-6 py-4 flex justify-between items-center border-b">
-          <h1 className="text-2xl font-bold">Apliko</h1>
-        </header>
 
         <section className="px-6 py-20 text-center max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-semibold mb-6">
@@ -97,6 +93,5 @@ export default function Home() {
           Contact: <a href="mailto:founder@apliko.io" className="hover:underline">founder@apliko.io</a> 
         </footer>
       </main>
-    </Layout>
   );
 }
