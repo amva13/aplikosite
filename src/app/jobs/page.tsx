@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
-import Layout from '@/components/Layout';
 
 interface Job {
   title: string;
