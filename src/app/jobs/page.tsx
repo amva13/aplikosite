@@ -25,7 +25,7 @@ export default async function JobsPage() {
       <div className="px-10 py-10">
         <h2 className="text-4xl font-bold mb-8">Open Roles</h2>
         <p className="text-lg text-gray-700 mb-6">
-            Please include a resume and work samples in your application.
+            Please include a resume and work samples in your application. Fractional arrangements are available for all roles. Compensation is purely equity-based 1-5% depending on the role and experience.
         </p>
         <div className="space-y-6">
           {jobs.map((job, idx) => (
