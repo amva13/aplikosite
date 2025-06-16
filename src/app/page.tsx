@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaFire } from 'react-icons/fa';
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
             Building intelligent systems for a healthier, more sustainable world.
           </h2>
           <p className="text-lg text-gray-600 mb-10">
-            Apliko is a product-centered, engineering-driven, AI research lab focused on building LLM agents in health and sustainability empowering economic mobility
+            Apliko is on a mission to build intelligent systems to heal the world. We are a product-centered, engineering-driven, AI research lab focused on building vertical AI agents in health and sustainability. We are an innovation engine, creating foundational AI agent architectures that can be rapidly tailored and deployed across diverse industry challenges.
           </p>
           {/* change nums here for columns */}
           <div className="grid md:grid-cols-3 gap-6"> 
@@ -40,7 +40,7 @@ export default function Home() {
             <div className="border rounded-2xl p-6 shadow hover:shadow-md transition">
               <h3 className="text-xl font-semibold mb-2">🧬 Trinity</h3>
               <p className="text-gray-600 mb-4 text-sm">
-                Scientific superintelligence to automate core research workflows across biology, chemistry, and materials science
+                Scientific superintelligence to automate core research workflows across therapeutics.
               </p>
               <Link href="https://www.calculus.house/alex-velez-arce" className="text-blue-600 font-medium hover:underline">
                 Learn more →
@@ -87,6 +87,14 @@ export default function Home() {
             className="text-gray-600 hover:text-blue-700 transition"
           >
             <FaLinkedin size={24} />
+          </a>
+          <a
+            href="https://app.peachscore.com/company/apliko-inc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-blue-700 transition"
+          >
+            <FaFire size={24} />
           </a>
         </div>
           Contact: <a href="mailto:founder@apliko.io" className="hover:underline">founder@apliko.io</a> 
