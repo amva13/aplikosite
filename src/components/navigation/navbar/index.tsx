@@ -38,6 +38,11 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                   <p>Jobs</p>
                 </Link>
               </li>
+              <li>
+                <Link href="/blog">
+                  <p>Blog</p>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
