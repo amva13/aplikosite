@@ -7,10 +7,10 @@ export default function Home() {
 
         <section className="px-6 py-20 text-center max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-semibold mb-6">
-            Building intelligent systems for a healthier, more sustainable world.
+            Building scientific superintelligence via an agentic data scientist
           </h2>
           <p className="text-lg text-gray-600 mb-10">
-            Apliko is on a mission to build intelligent systems to heal the world. We are a product-centered, engineering-driven, AI research lab focused on building vertical AI agents in health and sustainability. We are an innovation engine, creating foundational AI agent architectures that can be rapidly tailored and deployed across diverse industry challenges.
+            We are a product-centered, engineering-driven, AI research lab focused on building vertical AI agents solving data science workflows across domains. We are an innovation engine, creating foundational AI agent architectures that can be rapidly tailored and deployed across diverse industry challenges.
           </p>
           {/* change nums here for columns */}
           <div className="grid md:grid-cols-3 gap-6"> 
@@ -28,9 +28,9 @@ export default function Home() {
             </div>
 
             <div className="border rounded-2xl p-6 shadow hover:shadow-md transition">
-              <h3 className="text-xl font-semibold mb-2">🛍️🦄 Luxe</h3>
+              <h3 className="text-xl font-semibold mb-2">🛍️ Luxe</h3>
               <p className="text-gray-600 mb-4 text-sm">
-                Multi-agent recommender system deployed in sustainable, longevity-focused, shopping and discovery economics.  
+                Multi-agent recommender system deployed in sustainable, longevity-focused, shopping.  
               </p>
               <Link href="/wip" className="text-blue-600 font-medium hover:underline">
                 Learn more →
