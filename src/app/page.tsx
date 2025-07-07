@@ -10,7 +10,7 @@ export default function Home() {
             Building scientific superintelligence via an agentic data scientist
           </h2>
           <p className="text-lg text-gray-600 mb-10">
-            We are a product-centered, engineering-driven, AI research lab focused on building vertical AI agents solving data science workflows across domains. We are an innovation engine, creating foundational AI agent architectures that can be rapidly tailored and deployed across diverse industry challenges.
+            We are a product-centered, engineering-driven, AI research lab focused on building vertical AI agents solving data science and domain-specific workflows across domains. We are an innovation engine, creating foundational AI agent architectures that can be rapidly tailored and deployed across diverse industry challenges.
           </p>
           {/* change nums here for columns */}
           <div className="grid md:grid-cols-3 gap-6"> 
