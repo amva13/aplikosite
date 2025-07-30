@@ -10,7 +10,7 @@ export default function Home() {
             Building scientific superintelligence for autonomous data science and engineering. 
           </h2>
           <p className="text-lg text-gray-600 mb-10">
-            Backed by top accelerators, we are pioneering the future of autonomous scientific research in biomedical sciences and financial engineering.
+            Backed by top accelerators, we are pioneering the future of autonomous scientific research in biomedical sciences, quantitative marketing, and financial engineering.
           </p>
           {/* change nums here for columns */}
           <div className="grid md:grid-cols-3 gap-6"> 
