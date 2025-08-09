@@ -44,8 +44,8 @@ const Sidebar = ({
             </Link>
           </li>
           <li>
-            <Link href="/blog" onClick={toggle}>
-              <p>Blog</p>
+            <Link href="/blog-2" onClick={toggle}>
+              <p>Blog 2</p>
             </Link>
           </li>
         </ul>
