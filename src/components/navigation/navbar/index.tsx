@@ -26,7 +26,7 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 />
               </svg>
             </button>
-            <h1 className="text-2xl font-bold text-gray-900">Apliko</h1>
+            <h1 className="text-2xl font-bold text-gray-900">ArcellAI (formerly Apliko)</h1>
             <ul className="hidden md:flex gap-x-6 text-gray-900 font-sans">
               <li>
                 <Link href="/">
@@ -42,6 +42,8 @@ const Navbar = ({ toggle }: { toggle: () => void }) => {
                 <Link href="/blog">
                   <p>Blog 1</p>
                 </Link>
+              </li>
+              <li>
                 <Link href="/blog-2">
                   <p>Blog 2</p>
                 </Link>

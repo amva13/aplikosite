@@ -8,7 +8,7 @@ export default function Home() {
           Reimagining discovery with the agentic AI data scientist — one virtual cell at a time.
         </h1>
         <p className="text-lg text-gray-600 mb-10">
-          Apliko is building an AI data scientist and engineer that automates the hardest 80% of data workflows across research and industry. Our current focus is virtual cells: computational models transforming biology, medicine, and biomanufacturing.
+          ArcellAI (formerly Apliko) is building an AI data scientist and engineer that automates the hardest 80% of data workflows across research and industry. Our current focus is virtual cells: computational models transforming biology, medicine, and biomanufacturing.
         </p>
       </section>
 
