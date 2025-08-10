@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
         destination: "https://fixed-pull-c53.notion.site/calculus-house-demo-2-3-AI-Scientist-virtual-cells-demo-24afeb150a9d8026a0f3fa6814554e47",
         permanent: true, // Set to true for a 308 redirect, false for a 307 redirect
       },
+      {
+        source: "/demo-irsf",
+        destination: "https://youtu.be/A4BojoRSZlo",
+        permanent: true, // Set to true for a 308 redirect, false for a 307 redirect
+      },
     ];
   },
 };

@@ -60,6 +60,7 @@ export default function Home() {
         <ul className="list-disc list-inside text-gray-700 space-y-2">
           <li><a href="https://apliko.io/blog" className="text-blue-600 hover:underline">calculus.house demo 1/3</a></li>
           <li><a href="https://apliko.io/blog-2" className="text-blue-600 hover:underline">calculus.house demo 2/3</a></li>
+          <li><a href="https://apliko.io/demo-irsf" className="text-blue-600 hover:underline">Inventor's Residency SF (IRSF by The Residency) demo day</a></li>
           <li><a href="https://app.peachscore.com/company/apliko-inc/public" className="text-blue-600 hover:underline">Accelerator page</a> (deck, fundraising, team, etc.)</li>
         </ul>
       </section>
