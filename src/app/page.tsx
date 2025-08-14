@@ -35,6 +35,7 @@ export default function Home() {
       <section className="px-6 py-10 max-w-3xl mx-auto text-left">
         <h2 className="text-2xl font-semibold mb-4">Traction</h2>
         <ul className="list-disc list-inside text-gray-700 space-y-2">
+          <li>LOI(s)</li>
           <li>Live prototype ("<a href="https://apliko.io/blog" className="text-blue-600 hover:underline">VC-GPT</a>",) <a href="https://youtu.be/6SuFQszMr2Q" className="text-blue-600 hover:underline">demoed</a> publicly at calculus.house</li>
           <li>Founder previously built <a href="https://pytdc.apliko.io" className="text-blue-600 hover:underline">PyTDC</a>, an ICML-published virtual cells  AI platform with 30k MAU</li>
           <li>Signed regulatory counsel and founding engineer</li>

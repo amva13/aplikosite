@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Apliko Inc",
-  description: "Superintelligent AI Agents for health and sustainability. Apliko is a product-centered AI research lab focused on building LLM agents in health and sustainability.",
+  title: "ArcellAI",
+  description: "Reimagining discovery with the agentic AI data scientist — one virtual cell at a time.",
 };
 
 export default function RootLayout({
