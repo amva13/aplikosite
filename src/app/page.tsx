@@ -27,7 +27,7 @@ export default function Home() {
         <ul className="list-disc list-inside text-gray-700 space-y-2">
           <li>End-to-end data agents that automate research workflows, from wrangling to advanced analytics</li>
           <li>Domain-specific ML integrations for single-cell biology and therapeutic discovery</li>
-          <li>Modular architecture for adapting to any research vertical beyond virtual cells</li>
+          <li>Modular architecture for adapting to industry (ie. banking, trading, healthcare) and research (ie. drug discovery, molecural design) verticals beyond virtual cells</li>
           <li>Interfaces that enable scientists to query, benchmark, and reason with complex data in natural language</li>
         </ul>
       </section>
