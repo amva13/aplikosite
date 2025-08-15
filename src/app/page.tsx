@@ -33,7 +33,7 @@ export default function Home() {
       </section>
 
       <section className="px-6 py-10 max-w-3xl mx-auto text-left">
-        <h2 className="text-2xl font-semibold mb-4">Traction</h2>
+        <h2 className="text-2xl font-semibold mb-4">Traction & team</h2>
         <ul className="list-disc list-inside text-gray-700 space-y-2">
           <li>LOI(s)</li>
           <li>Live prototype ("<a href="https://apliko.io/blog" className="text-blue-600 hover:underline">VC-GPT</a>",) <a href="https://youtu.be/6SuFQszMr2Q" className="text-blue-600 hover:underline">demoed</a> publicly at calculus.house</li>
@@ -41,6 +41,7 @@ export default function Home() {
           <li>Signed regulatory counsel and founding engineer</li>
           <li>Confirmed interest from top accelerators and VCs</li>
           <li>In discussion with top medical school lab for collaboration</li>
+          <li>Accelerator networks from <a href='https://www.tampabaywave.org/core-membership/' className='text-blue-600 hover:underline'>Tampa Bay Wave CORE ELP</a>, <a href='https://www.livetheresidency.com/' className='text-blue-600 hover:underline'>The Residency SF's</a> <a href='https://www.calculus.house/' className='text-blue-600 hover:underline'>calculus.house</a>, and <a href='https://peachscore.com/' className='text-blue-600 hover:underline'>Peachscore</a>.</li>
         </ul>
       </section>
 
