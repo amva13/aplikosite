@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "ArcellAI",
-  description: "Reimagining discovery with the agentic AI data scientist — one virtual cell at a time.",
+  description: "Multi-omic data science AI agents",
 };
 
 export default function RootLayout({

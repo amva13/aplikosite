@@ -5,10 +5,10 @@ export default function Home() {
     <main className="min-h-screen bg-white text-gray-900 font-sans">
       <section className="px-6 py-24 text-center max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-          Reimagining discovery with the agentic AI data scientist — one virtual cell at a time.
+         Multi-omic data science AI agents
         </h1>
         <p className="text-lg text-gray-600 mb-10">
-          ArcellAI (formerly Apliko) is building an AI data scientist and engineer that automates the hardest 80% of data workflows across research and industry. Our current focus is virtual cells: computational models transforming biology, medicine, and biomanufacturing.
+          ArcellAI is building an AI data scientist and engineer that automates the hardest 80% of data workflows across research and industry. We're specialized in multi-omic data and building in virtual cells: computational models transforming biology, medicine, and biomanufacturing.
         </p>
       </section>
 
@@ -26,8 +26,8 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">What we’re building</h2>
         <ul className="list-disc list-inside text-gray-700 space-y-2">
           <li>End-to-end data agents that automate research workflows, from wrangling to advanced analytics</li>
-          <li>Domain-specific ML integrations for single-cell biology and therapeutic discovery</li>
-          <li>Modular architecture for adapting to any research vertical beyond virtual cells</li>
+          <li>Domain-specific ML integrations for multi-omic-centered scientific discovery</li>
+          <li>Modular architecture for adapting to numerous research verticals: virtual cells, synthetic biology, therapeutic discovery</li>
           <li>Interfaces that enable scientists to query, benchmark, and reason with complex data in natural language</li>
         </ul>
       </section>
@@ -50,7 +50,7 @@ export default function Home() {
         <ul className="list-disc list-inside text-gray-700 space-y-2">
           <li>built data & ml products accounting for $100M+ in revenue</li>
           <li>Open-sourced virtual cells AI platform with 30K+ MAU</li>
-          <li>ICML-and-NeurIPS-published researcher in AI for biomedicine</li>
+          <li>ICML-and-NeurIPS-published researcher in BioML</li>
           <li>Formerly SWE at Pinterest and AI researcher at Harvard</li>
           <li>MIT BS Computer Science</li>
           <li><a href='https://alejandrovelez.com' className='text-blue-600 hover:underline'>Personal page</a> for Alejandro 'Alex' Velez-Arce</li>
