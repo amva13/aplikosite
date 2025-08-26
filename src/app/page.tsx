@@ -26,8 +26,8 @@ export default function Home() {
         <h2 className="text-2xl font-semibold mb-4">What we’re building</h2>
         <ul className="list-disc list-inside text-gray-700 space-y-2">
           <li>End-to-end data agents that automate research workflows, from wrangling to advanced analytics</li>
-          <li>Domain-specific ML integrations for multi-omic-centered scientific discovery</li>
-          <li>Modular architecture for adapting to numerous research verticals: virtual cells, synthetic biology, therapeutic discovery</li>
+          <li>Domain-specific ML integrations for multi-omic-centered scientific discovery and single-cell biology</li>
+          <li>Modular architecture for adapting to industry (ie. banking, trading, healthcare) and research (ie. drug discovery, molecular design, virtual cells, synthetic biology) verticals</li>
           <li>Interfaces that enable scientists to query, benchmark, and reason with complex data in natural language</li>
         </ul>
       </section>
