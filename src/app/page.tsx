@@ -3,6 +3,18 @@ import { FaGithub, FaLinkedin, FaTwitter, FaInstagram, FaFire } from 'react-icon
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900 font-sans">
+      {/* New Button */}
+      <div className="w-full text-center py-4 bg-gray-100">
+        <a
+          href="https://arcell.ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block px-6 py-2 bg-black text-white font-medium text-sm rounded hover:bg-white hover:text-black transition-colors cursor-pointer"
+        >
+          Visit our new website
+        </a>
+      </div>
+
       <section className="px-6 py-24 text-center max-w-4xl mx-auto">
         <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
          Multi-omic data science AI agents
