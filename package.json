@@ -1,6 +1,7 @@
 {
-  "name": "aplikosite",
-  "version": "0.1.0",
+  "name": "pytdc-website",
+  "version": "2.0.0",
+  "description": "PyTDC: A Community Platform for AI-driven Drug Discovery and Development",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
@@ -9,11 +10,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "framer-motion": "^11.0.0",
     "js-yaml": "^4.1.0",
     "next": "15.3.2",
+    "next-themes": "^0.2.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-icons": "^5.5.0"
+    "react-icons": "^5.5.0",
+    "react-intersection-observer": "^9.5.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

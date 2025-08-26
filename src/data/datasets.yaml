@@ -1,0 +1,81 @@
+categories:
+  - name: Single-instance Prediction
+    description: Datasets for predicting properties of individual molecular entities
+    datasets:
+      - name: ADMET
+        description: Absorption, Distribution, Metabolism, Excretion, and Toxicity prediction datasets
+        tasks:
+          - Caco-2 permeability
+          - Human intestinal absorption
+          - P-glycoprotein substrate
+          - CYP inhibition
+          - Half-life
+          - Clearance
+        papers: ["https://doi.org/10.1038/s41597-021-00916-4"]
+        
+      - name: HTS
+        description: High-throughput screening datasets for various biological targets
+        tasks:
+          - HIV replication inhibition
+          - Malaria screening
+          - Tuberculosis screening
+        papers: ["https://doi.org/10.1021/acs.jcim.0c00675"]
+        
+      - name: DTI
+        description: Drug-target interaction prediction datasets
+        tasks:
+          - KIBA binding affinity
+          - Davis binding affinity
+          - BindingDB datasets
+        papers: ["https://doi.org/10.1093/bioinformatics/btaa747"]
+
+  - name: Multi-instance Prediction
+    description: Datasets involving multiple molecular instances or complex biological systems
+    datasets:
+      - name: DDI
+        description: Drug-drug interaction prediction datasets
+        tasks:
+          - DeepDDI dataset
+          - DrugBank interactions
+          - TWOSIDES adverse events
+        papers: ["https://doi.org/10.1186/s12859-020-03724-x"]
+        
+      - name: PPI
+        description: Protein-protein interaction datasets
+        tasks:
+          - STRING database interactions
+          - BioGRID interactions
+          - IntAct molecular interactions
+        papers: ["https://doi.org/10.1093/nar/gkaa1074"]
+
+  - name: Generation
+    description: Datasets for molecular generation and optimization tasks
+    datasets:
+      - name: Molecule Generation
+        description: Datasets for training generative models
+        tasks:
+          - ZINC dataset
+          - ChEMBL molecules
+          - QM9 quantum properties
+        papers: ["https://doi.org/10.1021/acs.jcim.9b00266"]
+        
+      - name: Retrosynthesis
+        description: Chemical reaction prediction and retrosynthetic planning
+        tasks:
+          - USPTO reactions
+          - Reaxys database
+          - Patent mining datasets
+        papers: ["https://doi.org/10.1038/s41586-020-2442-2"]
+
+resources:
+  primekg:
+    name: PrimeKG
+    description: Precision Medicine Knowledge Graph
+    url: "https://zitniklab.hms.harvard.edu/projects/PrimeKG/"
+    paper: "https://doi.org/10.1038/s41597-023-02333-8"
+    
+  pinnacle:
+    name: PINNACLE
+    description: Inductive and Compositional Link Prediction on Biomedical Knowledge Graphs
+    url: "https://zitniklab.hms.harvard.edu/projects/PINNACLE/"
+    paper: "https://doi.org/10.1038/s42256-023-00748-4"

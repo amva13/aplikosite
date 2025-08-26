@@ -1,0 +1,56 @@
+publications:
+  - title: "PyTDC: A multimodal machine learning training, evaluation, and inference platform for biomedical foundation models"
+    venue: "Forty-second International Conference on Machine Learning (ICML 2025)"
+    year: 2025
+    type: "Conference Paper"
+    status: "accepted"
+    paper_url: "https://openreview.net/forum?id=HV8vZDDoYc"
+    description: "The main PyTDC platform paper introducing the multimodal machine learning training, evaluation, and inference platform for biomedical foundation models."
+    
+  - title: "Signals in the Cells: Multimodal and Contextualized Machine Learning Foundations for Therapeutics"
+    venue: "NeurIPS 2024 Workshop on AI for New Drug Modalities (Spotlight)"
+    year: 2024
+    type: "Workshop Paper"
+    status: "published"
+    paper_url: "https://neurips.cc/virtual/2024/workshop/84717"
+    poster_url: "https://pytdc.apliko.io/static/posters/neurips2024_poster.pdf"
+    description: "Spotlight presentation on multimodal and contextualized machine learning foundations for therapeutics."
+    
+  - title: "TDC-2: Multimodal Foundation for Therapeutic Science"
+    venue: "Molecular Machine Learning Conference (MoML2024)"
+    year: 2024
+    type: "Conference Paper"
+    status: "published"
+    conference_url: "https://moml2024.github.io/"
+    poster_url: "https://pytdc.apliko.io/static/posters/moml2024_poster.pdf"
+    description: "Presentation at MoML2024 hosted at Mila Agora on June 19th, introducing TDC-2 as a multimodal foundation for therapeutic science."
+
+seminars:
+  - title: "Signals in the Cells: Multimodal and Contextualized Machine Learning Foundations for Therapeutics"
+    venue: "Western Bioinformatics Seminar Series"
+    speaker: "Alejandro Velez-Arce"
+    year: 2024
+    type: "Seminar"
+    event_url: "https://western-bioinformatics.github.io/"
+    description: "Invited seminar presentation on PyTDC and multimodal machine learning for therapeutics."
+
+links:
+  github: "https://github.com/apliko-xyz/PyTDC"
+  openreview_icml2025: "https://openreview.net/forum?id=HV8vZDDoYc"
+  pypi: "https://pypi.org/project/pytdc-nextml/"
+  huggingface_collection: "https://huggingface.co/collections/apliko/pytdc-nextml-67f7d938c5e59fe2e0e98d57"
+  
+resources:
+  primekg:
+    name: "PrimeKG"
+    description: "Precision Medicine Knowledge Graph - A comprehensive biomedical knowledge graph for precision medicine applications"
+    url: "https://zitniklab.hms.harvard.edu/projects/PrimeKG/"
+    paper: "https://doi.org/10.1038/s41597-023-02333-8"
+    venue: "Scientific Data (2023)"
+    
+  pinnacle:
+    name: "PINNACLE"
+    description: "Inductive and Compositional Link Prediction on Biomedical Knowledge Graphs"
+    url: "https://zitniklab.hms.harvard.edu/projects/PINNACLE/"
+    paper: "https://doi.org/10.1038/s42256-023-00748-4"
+    venue: "Nature Machine Intelligence (2023)"

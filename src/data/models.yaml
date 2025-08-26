@@ -1,0 +1,65 @@
+categories:
+  - name: Single-cell Foundation Models
+    description: Large-scale foundation models for single-cell genomics and multi-omics data analysis
+    models:
+      - name: scGPT
+        description: scGPT is a generative pre-trained transformer model specifically designed for single-cell RNA sequencing (scRNA-seq) data. It leverages the power of transformer architectures to capture the intricate relationships between genes and cells, enabling accurate cell type identification, differential expression analysis, and trajectory inference.
+        modalities: ["Gene Expression", "Single-cell RNA-seq"]
+        paper: "https://doi.org/10.1038/s41592-024-02201-0"
+        huggingface_tdc: "https://huggingface.co/tdc/scGPT"
+        huggingface_apliko: "https://huggingface.co/apliko/scGPT"
+        parameters: "50.8M"
+        downloads_tdc: 219
+        downloads_apliko: 15
+        
+      - name: Geneformer
+        description: Geneformer is a foundational transformer model pretrained on a large-scale corpus of single cell transcriptomes to enable context-aware predictions in settings with limited data in network biology.
+        modalities: ["Gene Expression", "Single-cell Transcriptomics"]
+        paper: "https://doi.org/10.1038/s41586-023-06139-9"
+        huggingface_tdc: "https://huggingface.co/tdc/Geneformer"
+        huggingface_apliko: "https://huggingface.co/apliko/Geneformer"
+        parameters: "151.3M"
+        downloads_tdc: 1202
+        downloads_apliko: 22
+        pipeline_tag: "fill-mask"
+        
+      - name: scVI
+        description: Single-cell variational inference (scVI) is a powerful tool for the probabilistic analysis of single-cell transcriptomics data. It uses deep generative models to address technical noise and batch effects, providing a robust framework for various downstream analysis tasks.
+        modalities: ["Gene Expression", "Single-cell RNA-seq"]
+        paper: "https://doi.org/10.1038/s41592-018-0229-2"
+        huggingface_apliko: "https://huggingface.co/apliko/scVI"
+        downloads_apliko: 0
+        note: "To load the pre-trained model, use the Files and Versions tab files."
+
+model_server:
+  name: PyTDC Model Server
+  description: High-performance inference server for biomedical AI models providing unified access to model weights across distributed repositories
+  features:
+    - "REST API endpoints for model inference"
+    - "Unified access to model weights from HuggingFace Model Hub"
+    - "Chan-Zuckerberg CELLxGENE Census fine-tuned models"
+    - "TDC storage integration"
+    - "Model classes and tokenizer functions"
+    - "PyTorch and Hugging Face Transformers support"
+    - "Extracted embeddings for downstream tasks"
+    - "Pre-computed embedding storage"
+    - "Scalable deployment architecture"
+    - "Monitoring and logging capabilities"
+  github: "https://github.com/apliko-xyz/PyTDC"
+  pypi: "https://pypi.org/project/pytdc-nextml/"
+  architecture_diagram: "/static/images/pytdc_architecture.png"
+  workflow_diagram: "/static/images/pytdc_workflow.png"
+
+hub:
+  huggingface_collection: "https://huggingface.co/collections/apliko/pytdc-nextml-67f7d938c5e59fe2e0e98d57"
+  apliko_org: "https://huggingface.co/apliko"
+  tdc_org: "https://huggingface.co/tdc"
+  description: "PyTDC: A multimodal machine learning training, evaluation, and inference platform for biomedical foundation models"
+  
+navigation:
+  model_overview: "/models/"
+  single_cell_fms: "/models/scFMs"
+  individual_models:
+    scGPT: "/models/scGPT"
+    Geneformer: "/models/Geneformer"
+    scVI: "/models/scVI"
